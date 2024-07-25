@@ -1,0 +1,27 @@
+.top-footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,1fr);
+    gap: 1rem;
+}
+
+.footer-title{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #8c7ae6;
+}
+
+@media (min-width: 768px) {
+    .top-footer{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 1fr;
+        gap: 2rem;
+    }
+    
+    .footer-title{
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #8c7ae6;
+    }
+}

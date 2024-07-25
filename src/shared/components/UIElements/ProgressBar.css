@@ -1,0 +1,14 @@
+.progressBar{
+    width: 300px;
+    padding: 1rem 2rem;
+    margin: 0;
+    background-color: #dfe4ea;
+    text-align: center;
+}
+.progressBar p{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+input[type="range"] {
+  width: 100%;
+}

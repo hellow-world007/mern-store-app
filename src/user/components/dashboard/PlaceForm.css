@@ -1,0 +1,27 @@
+.place-form {
+  list-style: none;
+  margin: 0 auto;
+  padding: 1rem;
+  width: 80vw;
+  max-width: 50rem;
+}
+
+.image-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  gap: 2rem;
+}
+
+.image-wrapper .wrap-image{
+  width: 10rem;
+  height: 10rem;
+  border: 5px solid gold;
+  object-fit: cover;
+}

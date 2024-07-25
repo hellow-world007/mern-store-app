@@ -1,0 +1,66 @@
+.home-pages {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem auto;
+  padding: 0 2rem;
+  width: 90vw;
+}
+
+.hero {
+  color: #535c68;
+  font-size: 1.5rem;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #f9572a, #ffc905);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cta {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  color: #535c68;
+  font-size: 1.3rem;
+  max-width: 50rem;
+  width: 90%;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .home-pages {
+    padding: 0 5rem;
+    width: 85vw;
+  }
+  .cta {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .section {
+    font-size: 1.5rem;
+    max-width: 50rem;
+    width: 90%;
+    margin: 2rem auto;
+    text-align: center;
+  }
+}

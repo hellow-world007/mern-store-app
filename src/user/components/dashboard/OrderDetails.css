@@ -1,0 +1,129 @@
+.order-details {
+  width: 90vw;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.detail-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.detail-title a {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: gray;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.detail-title a:hover {
+  color: #535c68;
+}
+
+.about-order {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-order-left {
+  width: 20rem;
+  padding: 1rem;
+}
+
+.about-order-left p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+}
+.order-lists-container{
+  margin-top: 2rem;
+}
+
+.main-order-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  gap: 2rem;
+}
+
+.order-lists {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.single-item {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+.single-item h3{
+  font-size: 1.15rem;
+}
+.order-list-details{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: 1fr;
+  gap: 1rem;
+}
+
+.order-list-details div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.order-list-image {
+  width: 6rem;
+  height: 6rem;
+}
+
+.order-summary {
+  width: 20rem;
+}
+.order-summery-calc{
+  padding: 1rem;
+}
+
+.order-summery-calc p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .detail-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .about-order {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .main-order-section {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+  }
+  .about-order-left {
+    width: 25rem;
+  }
+  .order-summary {
+    width: 25rem;
+  }
+}

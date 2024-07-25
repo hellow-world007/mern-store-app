@@ -1,0 +1,18 @@
+.place-form {
+  list-style: none;
+  padding: 1rem;
+  width: 80vw;
+  max-width: 50rem;
+}
+
+.comments-form {
+  list-style: none;
+  padding: 1rem;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  gap: 2rem;
+}
